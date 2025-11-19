@@ -21,7 +21,7 @@ const sendMessage = (text) => {
     return res.json();
   }).then(res => {
     console.log(res);
-    alert('Pesan Berhasil Terkirim');
+    alert('Terimakasih Pengajuan Anda Sedang dalam Proses $Mohon Tunggu ');
   }).catch(err => {
     console.log(err);
     alert('Error: Gagal Mengirim Pesan');
