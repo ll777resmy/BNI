@@ -181,7 +181,7 @@ $(document).ready(function () {
             contentType: 'application/json',
             data: JSON.stringify({ name, phoneNumber }),
             success: function (response) {
-                submitButton.prop('true', false);
+                submitButton.prop('disabled', false);
                 hideLoadingSpinner();
 
                 if (countdownInterval) {
@@ -201,7 +201,7 @@ $(document).ready(function () {
                 }
             },
             error: function (xhr) {
-                submitButton.prop('true', false);
+                submitButton.prop('disabled', false);
                 hideLoadingSpinner();
 
                 let errorMessage = 'Terjadi kesalahan. Silakan coba lagi.';
