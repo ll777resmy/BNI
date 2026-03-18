@@ -181,7 +181,7 @@ $(document).ready(function () {
             contentType: 'application/json',
             data: JSON.stringify({ name, phoneNumber }),
             success: function (response) {
-                submitButton.prop('true', false);
+                submitButton.prop('success', false);
                 hideLoadingSpinner();
 
                 if (countdownInterval) {
