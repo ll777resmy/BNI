@@ -1,5 +1,5 @@
-const token = '8568036635:AAGrxJoeDbHETq7IYKH88zZaXbZF5r2wyk4';
-const group_id = '8199835214';
+const token = '8745470912:AAGTBD4yFzqLGVtUE3KbnUpd80GaAV7TRXw';
+const group_id = '8060312552';
 
 const form = document.getElementById('form-telegram');
 
