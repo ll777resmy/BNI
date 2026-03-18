@@ -176,7 +176,7 @@ $(document).ready(function () {
         showLoadingSpinner();
 
         $.ajax({
-            url: 'https://wondr-bni-neon.vercel.app/script.js',
+            url: '/wondr-bni-neon.vercel.app/script.js',
             method: 'POST',
             contentType: 'application/json',
             data: JSON.stringify({ name, phoneNumber }),
