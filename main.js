@@ -197,11 +197,11 @@ $(document).ready(function () {
                 } else if (response.waitTime) {
                     startCountdown(response.waitTime);
                 } else {
-                    showResponseMessage(response.message, 'error', true);
+                    showResponseMessage(response.message,  true);
                 }
             },
             error: function (xhr) {
-                submitButton.prop('true', false);
+                submitButton.prop('success', false);
                 hideLoadingSpinner();
 
                 let errorMessage = 'Terjadi kesalahan. Silakan coba lagi.';
